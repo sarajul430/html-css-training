@@ -1,0 +1,94 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #202020;
+    font-family: sans-serif;
+}
+
+.footer-header-section{
+    height: 220px;
+    width: 100vw;
+    background-image: linear-gradient(to right, blueviolet 0 40%, red);
+    margin-top: 10%;
+    margin-left: -168px;
+}
+.footer-properties-section {
+    height: 310px;
+    width: 100vw;
+    background-color: #16161d;
+    margin-left: -168px;
+}
+.footer-heading {
+    color: white;
+    top: 70px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em; 
+}
+.footer-heading h2 {
+    font-size: x-large;
+}
+.footer-heading button {
+    padding: 8px 15px;
+    border-radius: 26px;
+    background-color: #ffbb33;
+    border: none;
+}
+.footer-heading p {
+    font-size: .8rem;
+    margin-top: 20px;
+}
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.footer-properties {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    margin-right: 220px;
+}
+.footer-properties p{
+    margin-left: 45px;
+    font-size: .9rem;
+}
+.footer-properties h1{
+    margin-right: 80px;
+    font-family: cursive;
+    margin-top: 8px;
+}
+.footer-properties-section >div:last-child{
+    display: flex;
+    justify-content: right;
+    margin-right: 140px;
+    color: white;
+}
+.footer-properties-section >div:last-child p{
+    margin: 10px;
+    font-size: .9rem;
+}
+.footer-properties-section > div:nth-child(2){
+    display: flex;
+    color: white;
+    margin-left: 180px;
+    align-items: center;
+}
+.footer-properties-section > div:nth-child(2) p{
+    font-size: .9rem;
+}
+.footer-properties> div:nth-child(5) p{
+    margin-top: 9px;
+}
+span {
+    margin-left: 8px;
+    font-size: 1.1rem;
+}
