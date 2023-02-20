@@ -1,0 +1,224 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}  
+.contact-us{
+text-align: center;
+margin-top: 20px;
+}
+.contact-us p{
+margin-top: -10px;
+color: grey;
+}
+.contact-info{
+background-color: white;
+position: absolute;
+bottom: 20px;
+top: 100px;
+right: 10px;
+left: 10px;
+margin-top: 120px;
+border-radius: 12px;
+padding-bottom: 10px;
+width: 100%;
+margin: 20px auto;
+float: left;
+padding-left: 0px;
+display: flex;
+max-width: 1200px;
+margin: 0 auto;
+max-height: 505px;
+}
+.left-des{
+background-color: rgb(87, 2, 167);
+position: absolute;
+bottom: 0px;
+top: 5px;
+left: 0px;
+margin-top: 120px;
+border-radius: 12px;
+padding-bottom: 0px;
+width: 40%;
+margin: 20px auto;
+float: left;
+padding-left: 0px;
+display: block;
+max-width: 1100px;
+margin: 0 auto;
+max-height: 505px;
+}
+#information{
+display: flex;
+justify-content: space-between;
+right: 0px;
+}
+
+.left-end-color{
+height: 180px;
+width: 180px;
+position: absolute;
+background-color: palevioletred;
+bottom: 0px;
+float: left;
+display: block;
+border-top-left-radius: 100%;
+border-bottom-right-radius: 12px;
+justify-content: right;
+right: 0px;
+
+}
+.left-upeer-color{
+height: 95px;
+width: 95px;
+position: absolute;
+background-color: rgb(79, 79, 216);
+bottom: 0px;
+float: left;
+border-radius: 100%;
+justify-content: right;
+right: 65px;
+bottom: 94px;
+opacity: 0.8;
+}
+.left-contact{
+color: white;
+margin-left: 50px;
+}
+.left-contact p{
+margin-top: -10px;
+width: 70%;
+color: #dfd7d7;
+}
+.left-call{
+display: flex;
+margin-left: -20px;
+margin-top: 25px;
+}
+.left-call img{
+margin-top: 14px;
+margin-right: 10px;
+margin-left: 0px;
+}
+.left-call h4{
+font-weight: normal;
+width: 50%;
+margin-top: 18px;
+color: #dfd7d7;
+}
+.left-image{
+display: flex;
+margin-top: 40px;
+margin-left: -15px;
+
+
+}
+.left-last-image2{
+display: flex;
+margin-left: 64px;
+margin-top: -40px;
+}
+.left-last-image{
+margin-left: 20px;
+}
+
+.right-des{
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+right: 0px;
+margin-left: 325px;
+color: gray;
+margin-top: -390px;
+
+}
+.f1{
+margin-left: 50px;
+float: right;
+right: 0%;
+}
+.right-input-upper{
+padding-top: 10px;
+margin-top: 20px;
+border-top: none;
+border-right: none;
+border-left: none;
+color: black;
+width: 250px; 
+outline: none;
+}
+
+.mail-part{
+display: flex;
+margin-top: 115px;
+margin-left: -580px;
+
+}
+.right-input-mail{
+padding-top: 10px;
+margin-top: 20px;
+border-top: none;
+border-right: none;
+border-left: none;
+color: black;
+width: 250px;
+outline: none;
+}
+.phone{
+margin-left: 71px;
+float: right;
+right: 0%;
+
+}
+.service-req{
+
+margin-top: 210px;
+margin-left: -570px;
+width: 600px;
+color: black;
+
+}
+.service-inbox{
+margin-right: 0px;
+color: rgb(36, 36, 82);
+}
+.service-inbox input{
+border-radius: 100%;   
+}
+.full-stack-part{
+margin-left: 99px;
+}
+
+.message-part{
+margin-top: 30px;
+}
+.message-input{
+margin-top: 20px;   
+}
+.message-part input{
+border-top: none;
+border-right: none;
+border-left: none;
+color: black;
+width: 570px;
+padding-top: 0px;
+outline: none;
+}
+.send-button{
+margin-top: 25px;
+float: right;
+margin-right: -0px;
+}
+.send-button button{
+padding-top: 12px;
+padding-bottom: 12px;
+padding-right: 20px;
+padding-left: 20px;
+border-radius: 5px;
+background-color: rgb(90, 10, 169);
+color: white;
+border: 1px solid rgb(90, 10, 169);       
+}
+.message-part p{
+color: grey;
+}
