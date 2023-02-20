@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Details</title>
+
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #202020;
+        }
+        section {
+            height: 100vh;
+            background-color: rgba(58, 10, 10, 0.6);
+            width: 0 auto;
+        }
+        #appointment {
+            display: flex;
+            color: white;
+        }
+        .hearnic-header-part img {
+            object-fit: cover;
+            height: 100vh;
+            width: 50vw;
+            z-index: -10;
+            position: absolute;
+        }
+        .hearnic-header-part h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            margin: 30px;
+        }
+        .hearnic-header-part h3 {
+            font-size: 1.6rem;
+            font-weight: normal;
+            margin: 30px;
+        }
+        .book-appointment {
+            color: white;
+            background-color: whitesmoke;
+            height: 100vh;
+            width: 100vw;
+            margin-left: 232px;
+        }
+        .book-appointment h1 {
+            color: black;
+            margin-top: 10px;
+            font-size: 1.8rem;
+            margin-left: 30px;
+        }
+        .book-appointment p {
+            color: grey;
+            font-size: 1rem;
+            margin-left: 30px;
+        }
+        #appointment-option {
+            display: flex;
+            justify-content: space-around;
+            font-size: 17px;
+            text-align: justify;
+        }
+        #appointment-option p {
+            margin-left: 20px;
+            margin-top: 5px;
+            color: black;
+        }
+
+        #appointment-option img {
+            height: 60px;
+            width: 60px;
+            border: 4px solid;
+            padding: 18px 18px;
+            border-radius: 101%;
+            background-color: white;
+        }
+        #appointment-option>div:nth-child(1) p {
+            margin-left: -10px;
+        }
+        #appointment-option>div:nth-child(4) p {
+            margin-left: 0px;
+        }
+
+        .appointment-input-options {
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: -15px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .appointment-input-options input {
+            padding: 15px 10px;
+            padding-right: 100px;
+            border: none;
+            outline: none;
+            background-color: whitesmoke;
+        }
+
+        .appointment-input-options h4 {
+            margin-left: 20px;
+            font-weight: normal;
+            margin-bottom: -8px;
+        }
+
+        .input-border-image {
+            border: 1px solid gray;
+            align-items: center;
+            display: flex;
+            border-radius: 6px;
+            margin: 20px;
+        }
+        .input-border-image ::placeholder {
+            color: black;
+        }
+        .input-additional-message {
+            margin-top: 20px;
+            color: black;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .input-additional-message input {
+            padding: 10px 20px;
+            width: 625px;
+            padding-bottom: 69px;
+            border-radius: 5px;
+            border: 2px solid grey;
+        }
+        h4 {
+            color: black;
+            font-weight: normal;
+            margin-left: 42px;
+            margin-bottom: 5px;
+        }
+        .book-button{
+            margin-left: 40px;
+        }
+        .book-button button {
+            padding: 15px 85px;
+            border-radius: 5px;
+            margin-top: 30px;
+            background-color: rgb(72, 72, 252);
+            color: white;
+            border: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="appointment">
+            <div class="hearnic-header-part">
+                <img src="images/hearnic-background.jpeg" alt="">
+                <div>
+                    <h3> HEARNIC</h3>
+                    <h1>Welcome to <br> Hearnic</h1>
+                </div>
+            </div>
+
+            <div class="book-appointment">
+                <h1>Book a appointment</h1>
+                <p>Over past decade, we have provided hundreds of aids and speech therapy services.</p>
+                <div id="appointment-option">
+                    <div>
+                        <img style="background-color: #6161e0;" src="images/book1.png" alt="">
+                        <p><span>Children's Audiologist</span></p>
+                    </div>
+                    <div>
+                        <img src="images/book2.png" alt="">
+                        <p>Therapist</p>
+                    </div>
+                    <div>
+                        <img src="images/book3.png" alt="">
+                        <p>Audiologist</p>
+                    </div>
+                    <div>
+                        <img src="images/book4.png" alt="">
+                        <p>Specialist Doctor</p>
+                    </div>
+
+                </div>
+
+                <div class="appointment-input-options">
+                    <div>
+                        <h4>Your Name</h4>
+                        <div class="input-border-image"> <span><img src="images/person_filled.svg" alt=""></span><input
+                                placeholder="Rahul Kumar" type="text" id="number" maxlength="700"><br></div>
+                    </div>
+                    <div>
+                        <h4>Email Address</h4>
+                        <div class="input-border-image"> <span><img src="images/email_outlined.svg" alt=""></span><input placeholder="xyz@gmail.com" type="text" id="number" maxlength="700"><br></div>
+                    </div>
+                </div>
+                <div class="appointment-input-options">
+                    <div>
+                        <h4>Select a city</h4>
+                        <div class="input-border-image"> <span><img src="images/nav.png" alt=""></span><input placeholder="Memco More, Dhanbad..." type="text" id="number" maxlength="700"><br></div>
+                    </div>
+
+                    <div>
+                        <h4>Schedule date</h4>
+                        <div class="input-border-image"> <span><img src="images/date.svg" alt=""></span><input placeholder="19/02/2023" type="text" id="number" maxlength="700"><br></div>
+                    </div>
+                </div>
+                <h4>Additional message</h4>
+                <div class="input-additional-message">
+                    <div> <input placeholder="I want help related to my therapy and aid problem...." type="text" id="number" maxlength="700"><br></div>
+                </div>
+                <div class="book-button"><button>Book appointment</button></div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
