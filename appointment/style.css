@@ -1,0 +1,140 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #202020;
+}
+section {
+    height: 100vh;
+    background-color: rgba(58, 10, 10, 0.6);
+    width: 0 auto;
+}
+#appointment {
+    display: flex;
+    color: white;
+}
+.hearnic-header-part img {
+    object-fit: cover;
+    height: 100vh;
+    width: 50vw;
+    z-index: -10;
+    position: absolute;
+}
+.hearnic-header-part h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 30px;
+}
+.hearnic-header-part h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin: 30px;
+}
+.book-appointment {
+    color: white;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 232px;
+}
+.book-appointment h1 {
+    color: black;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+}
+.book-appointment p {
+    color: grey;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+#appointment-option {
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    text-align: justify;
+}
+#appointment-option p {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: black;
+}
+
+#appointment-option img {
+    height: 60px;
+    width: 60px;
+    border: 4px solid;
+    padding: 18px 18px;
+    border-radius: 101%;
+    background-color: white;
+}
+#appointment-option>div:nth-child(1) p {
+    margin-left: -10px;
+}
+#appointment-option>div:nth-child(4) p {
+    margin-left: 0px;
+}
+
+.appointment-input-options {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.appointment-input-options input {
+    padding: 15px 10px;
+    padding-right: 100px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.appointment-input-options h4 {
+    margin-left: 20px;
+    font-weight: normal;
+    margin-bottom: -8px;
+}
+
+.input-border-image {
+    border: 1px solid gray;
+    align-items: center;
+    display: flex;
+    border-radius: 6px;
+    margin: 20px;
+}
+.input-border-image ::placeholder {
+    color: black;
+}
+.input-additional-message {
+    margin-top: 20px;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.input-additional-message input {
+    padding: 10px 20px;
+    width: 625px;
+    padding-bottom: 69px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+h4 {
+    color: black;
+    font-weight: normal;
+    margin-left: 42px;
+    margin-bottom: 5px;
+}
+.book-button{
+    margin-left: 40px;
+}
+.book-button button {
+    padding: 15px 85px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(72, 72, 252);
+    color: white;
+    border: 1px;
+}
